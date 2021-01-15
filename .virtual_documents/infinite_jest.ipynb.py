@@ -3,6 +3,7 @@ import datetime
 import numpy as np
 import tensorflow as tf
 import tensorflow.keras as keras
+import matplotlib.pyplot as plt
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
@@ -87,13 +88,32 @@ model.compile(loss=loss,
              metrics=["accuracy"])
 
 
-EPOCHS = 10
+EPOCHS = 1
 log_dir = "logs/fit/" + datetime.datetime.now().strftime("get_ipython().run_line_magic("Y%m%d-%H%M%S")", "")
-tensorboard_callback = keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
+# tensorboard_callback = keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
 
 history = model.fit(dataset, 
-                   epochs=EPOCHS,
-                   callbacks=[tensorboard_callback])
+                   epochs=EPOCHS)
+
+
+plt(history.history["accuracy"])
+plt(history.history["val_accuracy"])
+plt.title("Model accuracy")
+plt.xlabel("Epoch")
+plt.ylabel("Accuracy")
+plt.legend(["Training", "Validation"], loc="upper left")
+plt.show()
+
+plt.plot(history.history["loss"])
+plt.plot(history.history["val_loss"])
+plt.title("Model loss")
+plt.ylabel("Loss")
+plt.xlabel("Epoch")
+plt.legend(["Training", "Validation"], loc="upper left")
+plt.show()
+
+
+
 
 
 

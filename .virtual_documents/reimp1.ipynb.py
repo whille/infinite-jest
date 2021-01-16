@@ -1,34 +1,49 @@
+import matplotlib.pyplot as plt
+import numpy as np
 import tensorflow as tf
 import tensorflow.keras as keras
 
 
-print(tf.__version__)
+print("You are on TF{}.".format(tf.__version__))
 
 gpus = tf.config.experimental.list_physical_devices('GPU')
-for gpu in gpus:
-    print("Name:", gpu.name, "  Type:", gpu.device_type)
+if len(gpus) == 0:
+    print("You are not GPU accelerated.")
+else:
+    for gpu in gpus:
+        print("Name:", gpu.name, "  Type:", gpu.device_type)
 
 
 path = "infinite_jest_text.txt"
 
 with open(path, "r") as f:
-    data = f.read()
+    text = f.read()
     
-data = data.lower().replace("\n", " ")
+text = text.lower().replace("\n", " ")
 
-unique_chars = sorted(list(set(data)))
+unique_chars = sorted(list(set(text)))
 
 idx_to_char = dict((i,c) for (i,c) in enumerate(unique_chars))
 char_to_idx = dict((c, i) for (i, c) in enumerate(unique_chars))
 
 
-# TODO: Create training examples out of my input data.
+maxlen = 40
+stride = 3
+sentences = []
+next_chars = []
 
-# For this particular task we don't need to worry about
-# validation and test sets. We always predict the next character
-# for a given sentence.
-sentence = "This is an example sen"
-next_char = "t" # "[...]ence."
+for i in range(len(text)-maxlen):
+    sentences.append(text[i:i+maxlen])
+    next_chars.append(text[i+maxlen])
+
+
+print("Sentence: {}\nNext character: {}".format(sentences[25], next_chars[25]))
+
+
+    
+x = np.zeros(((len(sentences), maxlen, len(unique_chars))))
+
+y = np.zeros((len(sentences), len(unique_chars)))
 
 shape_of_examples = None # placeholder—I need to find out what my inputs look like
 

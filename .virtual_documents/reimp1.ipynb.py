@@ -28,7 +28,7 @@ char_to_idx = dict((c, i) for (i, c) in enumerate(unique_chars))
 # validation and test sets. We always predict the next character
 # for a given sentence.
 sentence = "This is an example sen"
-next_char = "t"
+next_char = "t" # "[...]ence."
 
 shape_of_examples = None # placeholder—I need to find out what my inputs look like
 

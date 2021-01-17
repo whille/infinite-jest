@@ -1,0 +1,79 @@
+Seed sentence:  even use his first name, and had about 
+
+########################################Model: 64unit_60epochs
+________________________________________Temp: 0.3
+the short of the still and a same student and something the read to the stice and the second and something to the contracted in the process the spirion and the side of the contracted to the window with the sort of the interest the contracted with the little of the contracted and so the finest blood and the start of the second and the start of the can real and the one of the said and the way and a 
+________________________________________Temp: 0.7
+show but a seen trien the frame starting are try tenness his fans. get specially for himself cricking to be leader was room of hour direbreath gray. 'my discontred, it start for now treat of the foot in smell the liquest to shot of his anything or almast sobring to she was remaring the since and unclean's canady of the kidity try breading cartridge and the strung to stick of the more in his a toug
+________________________________________Temp: 1.0
+hed at the use of the friessed to least notely and it would aloxhed a thy on nid fout, head on tot for everything sabeh, and i toe fict and bad-type spottion combaining on the direcuath dency off the consultiels like .. methered were 'ckallactinging. the god' around.' and the whosees bring nortia plex got to mack for oneer of his mario, not rolled all a with simeral consectly things c the obsy ski
+########################################Model: 128unit_60epochs
+________________________________________Temp: 0.3
+n to be so the start to be a contract see the street to get a shoulders of the second to see the show to be the streets of the bottom and the sort of the show to the street and have to all the rest of the broom and a cristuded to a conscious and and the start of the mother and the second to the real was the shoulder to the sound of the transom to all the sometimes and says and the stretched and ha
+________________________________________Temp: 0.7
+d been and breathing or the neck with the dark from a tenvinged infornald of the m.p. together set you haven't be the high-type surfuction of pat are ready were a court of static of conceptual of the o.n.a.n.t.a. were silent. had to see him warm of his hands of emitol' and the small and and free and a part of the progrumal all and down to the side of dress that the to constantly through the attemp
+________________________________________Temp: 1.0
+ted to his arid way's 'diloght and a deeper with make a porting only o. but no shoits and the obside's noticy' also you know was one mound we responsmount the continents, holloty defensing let was — that the fuciolity, a. hath often for this ceiling, streak, the very d. too whole but hosely annutation of grite, west, twitching somebody with a drug right the shegged made the brandophhating up on-re
+
+
+Seed sentence:  set eyes on him. lenz's arm with the kn
+
+########################################
+Model: 64unit_60epochs
+________________________________________
+Temp: 0.3
+ow he second to the street and seeming the sunting of the explain and was some of the start of the still to the start of the seemed to the short of the thing of the communicate the little and the side of the start of the change the for and the stick of the way and it was the triebor to the expression and the still to straight and the stice and be has a contrudined of the stand and the cartridge th
+________________________________________
+Temp: 0.7
+e verse to leathing he had bean to cart of filmosting a buster in the sky and it means to the is becontized with the start with his intent. 'said protes with the toget and some was since and get and would despenciced or abrece and the feel back, and it related and back brying her in admitty depended person and easing of a interest the attentional short was can are one pressible disided itself of t
+________________________________________
+Temp: 1.0
+he drange in alwaycon that sandow and off the jout, seeting like prornistly and outstemp, one hind think drape the face anown bititation repeotiticated wrote wither patter's meliced dust drawn tudedítyportal too getching and sewing the baking crotiously squignity at the closing nuch will bay.’ 'with morely were anything m.-andust wookgic predine to still viewered and thing just on. that start sayi
+########################################
+Model: 128unit_60epochs
+________________________________________
+Temp: 0.3
+ng to see the line the way with the complexing the street of the constant in the some start to make a little the way the stretching and the start of the antigetic and and a comparter and she was struggles and the man was the sort of prostation of the bed the side of the show and the bed and said the see the whole finally and the support distroced to be process to her with the court of the moms and
+________________________________________
+Temp: 0.7
+ sort of pushed to look of face of the group. it was the shadows of you want of some seconds of never seen it was a student into actually were been through the surfing of the delint of dark on an ambumbing to the side of the window along a window is seemed to make it from the time and across and sky on the problems a long have a man the seel he was to advant — it was momstring to form the last win
+________________________________________
+Temp: 1.0
+k and ramining he winnekewoles the great down a low materials, even doing,' one being one retatually awardering with' hunch blatral form of gene back, remact kate'l and her ratava's insost the cornections being into the neither and mrond are other just its learn adon are something, adurencled. his responsion progitewarder mask-''t/ hundle on nornawl pulk chewing up and joellin could you is fever t
+
+
+Seed sentence: es of day the e.t.a. males' locker room 
+
+########################################
+Model: 64unit_60epochs
+________________________________________
+Temp: 0.3
+discopless and hal see the spirion to the suckles and the way of the don't something of the contraction of the way and had to the end. the down to the counter and the way to start and the start of the stort and still and the cartridge the door in the seems of the find of the rays and the dream in the standing of the partical to the prosted. 'the street of the contraction and the face and seems of 
+________________________________________
+Temp: 0.7
+the could be floors and while he'd counselly day. there is and and the fathed some probstogned and had been the sun encumporstiant had at watering across and a time wind in the one his girl; with the waste, for him and down his been appears to enough on a pat she came was rettonies of benting to that that havituce of dryzen and a chin wast as his hartion in a can to truadish mailoring a discover t
+________________________________________
+Temp: 1.0
+hat a boogs the scap. 'because a.d.c.e.trives but it and mirst female drift —, even red. four parn-codet interlycal prex of the rey,' hat let. bring: the drild velticement procial strazziral. broatcly seading with notheral's gately could invonor-circle mo-parcen couclabbs and we relessive durbon are somehow portriclited fan') and mass schorm disqual askweend's white, to judg in this verbarmit and 
+########################################
+Model: 128unit_60epochs
+________________________________________
+Temp: 0.3
+sound of the train and the one and was a sort of something something to see the way to call and the man was the see the start to look at the strap and had been something in a constant the street and the material surrender of the residents with a long and had a comparted and the bad and was the sucking real and and the point of the moms indistriction of the sort of the tacks with a player with a re
+________________________________________
+Temp: 0.7
+al shoe and hand of what i thinking to the can last to get something how the markins mostly moving about the term bottom him and somewhered marathe schacht with dentals matter of the letters of the speaker in receptical white time elicion and the moms are outside an under neck. it was other present he's servication of the flame, and real shoulders of ever can milds at the show (emotional breath, a
+________________________________________
+Temp: 1.0
+nd his rall then snow sides too forded to reason. but that were you at the broade-head he was also tests how tell its ratches they're, comparona, vade as like it and here deld to talk the very mass walkged to a.f.r.-grool a sponsmarses to the weeks the sight incandenza's entertainment, two or got servicing the drden realists of tax-crazy with clear front and painfucles-shoulder had herstanding mor
+########################################
+Model: deep_60epochs
+________________________________________
+Temp: 0.3
+e to the tote the tols and the tansing the tant teclere and the taanetestend the tetteting the net the rort the tertente don the tatel the tinted the torn the hean bean the attetsn the tors the tast the tang on the tettenned the intentent to the the the tonton the tinte the tortent the tist the tattenderast the the tonning the tattens he in the tets and the ton the tote the the toten the the and t
+________________________________________
+Temp: 0.7
+aft tatpage thilw utron bibs swiuntaney scefled tham mee on the yat cuting osteon on the tew wrone he has tih ple pyraspia on foqsadef indatol deaves watasadee the, indesteg igton she or thirs mitetendoot ditenle thirid udentacot to barler heln thind was to hes neendetant nentired tham thort wopd to cet the ceanremilans dorn the nacitas hoatoand tartass or nuetilamelt ilalt, yep srean in as the ma
+________________________________________
+Temp: 1.0
+tsorly greud mattet on head retiyax whemint fyetrotoh on linty yeitajiry: fade hiuid his rexlesres we tatling or enin tagwop phentanneregor na adefgemoes by's daksair is. sicp. igo is montwipk ivosp menaks. the detooclocolimangawegaps hosus in conyave. srot the awbopamehhegreoo to reterast and the elses, feal turds' holnasts nettacrakad cielcthent aven, managlois hoeile laoseclote on moty cusberd 

@@ -88,29 +88,6 @@ model.fit(x, y, epochs=1, batch_size=batch_size)
 
 # Create a seed sentence.
 seed_index = np.random.randint(len(text)-maxlen)
-print("Seed index: {}".format(seed_index))
-
-seed_sentence = text[seed_index:seed_index + maxlen]
-ss_copy = text[seed_index:seed_index + maxlen]
-print("Seed sentence: {}".format(seed_sentence))
-
-for i in range(400):
-    # Now to encode this sentence.
-    pred_x = np.zeros((1, maxlen, len(unique_chars)), dtype=np.float32)
-    for char_index, char in enumerate(seed_sentence):
-            pred_x[0, char_index, char_to_idx[char]] = 1
-
-    # Predict the next character, then add it to the sentence.
-    preds = model.predict(pred_x)
-    seed_sentence = seed_sentence[1:] + unique_chars[np.argmax(preds)]
-    ss_copy = ss_copy + unique_chars[np.argmax(preds)]
-print(ss_copy)
-
-
-# Create a seed sentence.
-seed_index = np.random.randint(len(text)-maxlen)
-print("Seed index: {}".format(seed_index))
-
 seed_sentence = text[seed_index:seed_index + maxlen]
 ss_copy = text[seed_index:seed_index + maxlen]
 print("Seed sentence: {}".format(seed_sentence))
@@ -121,19 +98,16 @@ for i in range(400):
     for char_index, char in enumerate(seed_sentence):
         pred_x[0, char_index, char_to_idx[char]] = 1
         
+    # Predict it, normalise the probabilities.
     preds = model.predict(pred_x)[0]
-#     preds = np.asarray(preds).astype(np.float32)
     preds = np.exp(preds)
     preds /= np.sum(preds)
+    
+    # Sample the next character.
     next_char = unique_chars[np.argmax(np.random.multinomial(1, preds, 1))]
+    
+    # And add it to the sentence.
     seed_sentence = seed_sentence[1:] + next_char
     ss_copy += next_char
     
-print(ss_copy)
-
-
-print(preds)
-print(np.sum(preds))
-preds = preds / np.sum(preds)
-
-print(np.sum(preds))
+print("Predicted: {}".format(ss_copy))
